@@ -8,6 +8,9 @@
           <li v-for= "(ceartgor,index) in blog.ceartgors" :key="index">{{ceartgor}}</li>
        </ul>
        <button type="button" @click="blogSingleDelete()">删除</button>
+       <!-- <router-link :to="'/edit/' + id">
+          <button type="button" >编辑</button>
+       </router-link> -->
     </div>
 </template>
 <script>
