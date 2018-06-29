@@ -23,7 +23,7 @@ export default {
         }
     },
     created(){
-        this.$http.get("https://vue-demo-f3e54.firebaseio.com/posts/" + this.id + ".json")
+        this.$http.get("https://wd6797671931vwtpen.wilddogio.com/posts/" + this.id + ".json")
         .then(function(data){
             //console.log(data)
             //this.blog = data.content;
@@ -35,7 +35,7 @@ export default {
     },
     methods:{
         blogSingleDelete(){
-            this.$http.delete("https://vue-demo-f3e54.firebaseio.com/posts/" + this.id + ".json")
+            this.$http.delete("https://wd6797671931vwtpen.wilddogio.com/posts/" + this.id + ".json")
                       .then(response =>{
                           this.$router.push({path:"/"})
                       } )

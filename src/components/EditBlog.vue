@@ -61,7 +61,7 @@ export default {
   },
   methods:{
     post:function(){
-      this.$http.post("https://vue-demo-f3e54.firebaseio.com/posts.json",this.blog)
+      this.$http.post("https://wd6797671931vwtpen.wilddogio.com/posts.json",this.blog)
       .then(function(data){
         this.submited = true;
          console.log(data)

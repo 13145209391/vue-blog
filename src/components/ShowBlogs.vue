@@ -22,7 +22,7 @@ export default {
       }
   },
   created(){
-      this.$http.get("https://vue-demo-f3e54.firebaseio.com/posts.json")
+      this.$http.get("https://wd6797671931vwtpen.wilddogio.com/posts.json")
         .then(data=>{
             //console.log(data)
             //this.blogs = data.body.slice(0,10);
@@ -36,7 +36,7 @@ export default {
                 blogArray.push(data[key])
             }
             this.blogs = blogArray;
-            console.log(this.blogs)
+            //console.log(this.blogs)
         })
   },
   computed:{
